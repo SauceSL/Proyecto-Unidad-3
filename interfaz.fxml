@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.input.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="FONDO" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="720.0" style="-fx-background-color: #1e1d22;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tap.ping_pong.HelloController" onKeyPressed="#handleKeyPress">
+   <children>
+      <Rectangle fx:id="P1" arcHeight="5.0" arcWidth="5.0" fill="#aeb7cf" height="80.0" layoutX="14.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="20.0" AnchorPane.leftAnchor="10.0" />
+      <Rectangle fx:id="P2" arcHeight="5.0" arcWidth="5.0" fill="LIGHTPINK" height="80.0" layoutX="686.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="20.0" AnchorPane.rightAnchor="10.0" />
+      <Circle fx:id="BOLITA" fill="#c0e5ba" layoutX="360.0" layoutY="199.0" radius="14.0" stroke="BLACK" strokeType="INSIDE" />
+      <TextField fx:id="SP2" alignment="CENTER" layoutX="655.0" layoutY="15.0" prefHeight="25.0" prefWidth="45.0" promptText="0" />
+      <TextField fx:id="SP1" alignment="CENTER" layoutX="20.0" layoutY="15.0" prefHeight="25.0" prefWidth="45.0" promptText="0" />
+      <Label fx:id="SCORE" alignment="CENTER" layoutX="315.0" layoutY="20.0" prefHeight="17.0" prefWidth="90.0" text="SCORE" textFill="WHITE">
+         <font>
+            <Font name="MS Gothic" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
+
